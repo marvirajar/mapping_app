@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mapping_app/Utils/routes_names.dart';
-import 'package:mapping_app/main.dart';
+
+import '../Screens/homepage.dart';
 //custom routes
 class Routes {
   static Route<dynamic> generateRoute(RouteSettings settings) {
