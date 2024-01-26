@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mapping_app/Utils/routes.dart';
+import 'package:mapping_app/Utils/routes_names.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +13,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Maping',
+      title: 'Mapping Application',
       theme: ThemeData(
-               colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      initialRoute: RouteNames.homePage,
+      onGenerateRoute: Routes.generateRoute,
     );
   }
 }
@@ -64,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
