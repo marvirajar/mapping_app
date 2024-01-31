@@ -4,4 +4,5 @@ class RouteNames {
   static const String signUpPage = "SignUp_page"; //not created yet
   static const String forgotPasswordPage = "forgot_pass_page"; //not created yet
   static const String homePage = "home_page";
+  static const String splashScreen = "splash_screen";
 }
