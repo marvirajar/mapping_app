@@ -15,7 +15,7 @@ class _HomepageState extends State<Homepage> {
     return  Scaffold(
       backgroundColor: bgColor,
       body: Center(
-        child: headingTextFont("Home Page", 40)
+        child: headingTextFont("This is my homepage", 40)
       ),
     );
   }
