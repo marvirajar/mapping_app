@@ -36,7 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   animated_splash_screen: ^1.3.0
-
+  flutter_screenutil: ^5.9.0
 
 
 
@@ -81,9 +81,20 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: heading
+    - family: popinsBold
       fonts:
-        - asset: assets/fonts/heading.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+    - family: popinslight
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+    - family: popinsMedium
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+    - family: dmSans
+      fonts:
+        - asset: assets/fonts/DMSans.ttf
+
+
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
