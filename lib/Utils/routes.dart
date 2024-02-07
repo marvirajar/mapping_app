@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mapping_app/Screens/Auth_ui/forgot_password.dart';
 import 'package:mapping_app/Screens/home_page.dart';
-
 import 'package:mapping_app/Screens/splash_screen.dart';
 import 'package:mapping_app/Utils/routes_names.dart';
-
 import '../Screens/Auth_ui/login_screen.dart';
 import '../Screens/Auth_ui/signup_screen.dart';
 
